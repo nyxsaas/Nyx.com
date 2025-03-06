@@ -49,14 +49,14 @@ export default function HeroSection({ heroRef }: { heroRef: React.RefObject<HTML
         }}
       ></div>
 
-      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 h-[60vh]">
         <motion.div
           className="text-center max-w-4xl mx-auto"
           initial="hidden"
           animate="visible"
           variants={staggerContainer}
         >
-          <motion.h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6" variants={fadeInUp}>
+          <motion.h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 mt-16" variants={fadeInUp}>
             <span className="gradient-text">Build the Future</span> of the Web
           </motion.h1>
           <motion.p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto" variants={fadeInUp}>
@@ -75,7 +75,7 @@ export default function HeroSection({ heroRef }: { heroRef: React.RefObject<HTML
             variants={fadeInUp}
           >
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-blue-500/10 z-0"></div>
-            <img src="/hero-interface.jpg" alt="NIX Platform Interface" className="w-full h-auto relative z-10" />
+            {/* <img src="/hero-interface.jpg" alt="NIX Platform Interface" className="w-full h-auto relative z-10" /> */}
             <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-background to-transparent z-20"></div>
             <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent z-20"></div>
           </motion.div>
