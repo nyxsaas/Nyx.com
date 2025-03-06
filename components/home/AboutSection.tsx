@@ -55,7 +55,7 @@ export default function AboutSection() {
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-blue-500/20 rounded-xl blur-xl opacity-70"></div>
               <div className="relative rounded-xl overflow-hidden border border-blue-500/30">
                 <Image 
-                    src="/ourmiss.jpg" 
+                    src="./ourmiss.jpg" 
                     alt="Web Application Showcase" 
                     layout="responsive"  // Ensures responsiveness
                     width={800}         // Set the width (adjust as needed)
