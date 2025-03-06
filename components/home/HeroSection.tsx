@@ -49,7 +49,7 @@ export default function HeroSection({ heroRef }: { heroRef: React.RefObject<HTML
         }}
       ></div>
 
-      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 h-[60vh]">
+      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 h-[55vh]">
         <motion.div
           className="text-center max-w-4xl mx-auto"
           initial="hidden"
