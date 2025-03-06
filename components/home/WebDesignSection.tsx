@@ -46,7 +46,7 @@ export default function WebDesignSection() {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-blue-500/10 z-0"></div>
               <Image 
-                src="/profweb2.png" 
+                src="./profweb2.png" 
                 alt="Web Application Showcase" 
                 layout="responsive"  // Ensures responsiveness
                 width={800}         // Set the width (adjust as needed)

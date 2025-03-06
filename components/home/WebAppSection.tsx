@@ -29,7 +29,7 @@ export default function WebAppSection() {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-blue-500/10 z-0"></div>
             <Image 
-              src="/powerweb2.png" 
+              src="./powerweb2.png" 
               alt="Web Application Showcase" 
               layout="responsive"  // Ensures responsiveness
               width={1200}         // Set the width (adjust as needed)
