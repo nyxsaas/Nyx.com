@@ -1,6 +1,8 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Github, Twitter, Linkedin, Instagram, Mail, Phone, MapPin, Code } from "lucide-react"
+import Image from 'next/image';
+
 
 const Footer = () => {
   return (
@@ -9,13 +11,17 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="relative w-8 h-8">
-                <div className="absolute inset-0 bg-blue-600 rounded-md rotate-45 transform origin-center"></div>
-                <Code className="absolute inset-0 w-5 h-5 m-auto text-white" />
-              </div>
-              <span className="text-xl font-bold tracking-tight">
-                NIX<span className="text-blue-500">Gen</span>
-              </span>
+              <div className="relative w-36 h-20">
+                  {/* <div className="absolute inset-0 bg-blue-600 rounded-md rotate-45 transform origin-center"></div> */}
+                  {/* <Code className="absolute inset-0 w-5 h-5 m-auto text-white" /> */}
+                    <Image 
+                      src="n10c.png" 
+                      alt="Your Image" 
+                      layout="fill" 
+                      objectFit="contain" 
+                      className="absolute inset-0"
+                     />
+                </div>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground max-w-md">
               Empowering the next generation of web creators with cutting-edge tools and solutions for building the
