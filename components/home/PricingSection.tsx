@@ -6,46 +6,55 @@ import { Zap } from "lucide-react"
 
 const pricingPlans = [
   {
-    name: "Starter",
-    price: "$19",
-    description: "Perfect for individuals and small projects",
-    features: ["1 Project", "Basic Templates", "Standard Support", "1GB Storage", "Basic Analytics"],
-    cta: "Get Started",
-    popular: false,
-  },
-  {
-    name: "Professional",
-    price: "$49",
-    description: "Ideal for growing businesses and teams",
+    name: "Basic",
+    price: "Rs. 20,000.00",
+    description: "Perfect for personal projects or small businesses needing a simple online presence.",
     features: [
-      "10 Projects",
-      "Premium Templates",
-      "Priority Support",
-      "10GB Storage",
-      "Advanced Analytics",
-      "Team Collaboration",
-      "Custom Domains",
+      "Custom Static Website (Up to 3 pages)",
+      "Responsive Design (Mobile & Desktop)",
+      "Basic UI/UX Design",
+      "1-Year Free Hosting",
+      "Contact Form Integration",
+      "Delivery in 5-7 Days"
     ],
     cta: "Get Started",
-    popular: true,
+    popular: false
   },
   {
-    name: "Enterprise",
-    price: "$99",
-    description: "For large organizations with advanced needs",
+    name: "Standard",
+    price: "Rs. 55,000.00",
+    description: "Ideal for growing businesses that want a professional, engaging website.",
     features: [
-      "Unlimited Projects",
-      "All Templates",
-      "24/7 Support",
-      "100GB Storage",
-      "Enterprise Analytics",
-      "Advanced Security",
-      "API Access",
-      "Custom Integrations",
+      "Custom Static Website (Up to 6 pages)",
+      "Premium UI/UX Design",
+      "Mobile-First Responsive Layout",
+      "Image Optimization & SEO Basics",
+      "1-Year Hosting (Premium Tier)",
+      "1-Year Domain Registration (.com / .net / .org)",
+      "Contact & Inquiry Forms",
+      "Delivery in 7-10 Days"
+    ],
+    cta: "Get Started",
+    popular: true
+  },
+  {
+    name: "Premium",
+    price: "Rs. 100,000.00",
+    description: "For brands seeking a polished, conversion-focused web presence.",
+    features: [
+      "Custom Static Website (Up to 10 pages)",
+      "Advanced UI/UX Design + Wireframes",
+      "Mobile-First & Retina-Ready",
+      "On-Page SEO Optimization",
+      "1-Year Premium Hosting + CDN",
+      "1-Year Domain Registration (with DNS setup)",
+      "Contact, Inquiry & Chatbots",
+      "Performance Optimization (Speed, Caching)",
+      "Delivery in 10-14 Days"
     ],
     cta: "Contact Sales",
-    popular: false,
-  },
+    popular: false
+  }
 ]
 
 export default function PricingSection() {
