@@ -33,17 +33,14 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
             <div className="relative w-36 h-20">
-                {/* <div className="absolute inset-0 bg-blue-600 rounded-md rotate-45 transform origin-center"></div> */}
-                {/* <Code className="absolute inset-0 w-5 h-5 m-auto text-white" /> */}
-                  <Image 
-                    src="n10c.png" 
-                    alt="Your Image" 
-                    layout="fill" 
-                    objectFit="contain" 
-                    className="absolute inset-0"
-                  />
+                <Image 
+                  src="n10c.png" 
+                  alt="Your Image" 
+                  layout="fill" 
+                  objectFit="contain" 
+                  className="absolute inset-0"
+                />
               </div>
-
             </Link>
           </div>
 
@@ -141,4 +138,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
 
