@@ -31,7 +31,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium mb-1">Email Us</h3>
-                    <p className="text-muted-foreground">info@nix.com</p>
+                    <p className="text-muted-foreground">nyx@gmail.com</p>
                   </div>
                 </div>
 
@@ -41,7 +41,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium mb-1">Call Us</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+94 722 451 812</p>
                   </div>
                 </div>
 
@@ -51,7 +51,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h3 className="text-lg font-medium mb-1">Visit Us</h3>
-                    <p className="text-muted-foreground">123 Tech Plaza, San Francisco, CA 94107</p>
+                    <p className="text-muted-foreground">Panadura</p>
                   </div>
                 </div>
               </div>

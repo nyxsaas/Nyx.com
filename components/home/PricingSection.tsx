@@ -90,7 +90,7 @@ export default function PricingSection() {
                 <h3 className="text-xl font-bold mb-2">{plan.name}</h3>
                 <div className="mb-4">
                   <span className="text-3xl font-bold">{plan.price}</span>
-                  <span className="text-muted-foreground">/month</span>
+                  <span className="text-muted-foreground"></span>
                 </div>
                 <p className="text-muted-foreground mb-6">{plan.description}</p>
                 <ul className="space-y-3 mb-8">
